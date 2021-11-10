@@ -1,17 +1,21 @@
 <template>
-  <div class="home flex-grow-1 d-flex flex-column align-items-center justify-content-center">
-    <div class="home-card p-5 bg-white rounded elevation-3">
-      <img src="https://bcw.blob.core.windows.net/public/img/8600856373152463" alt="CodeWorks Logo" class="rounded-circle">
-      <h1 class="my-5 bg-dark text-white p-3 rounded text-center">
-        Vue 3 Starter
-      </h1>
+  <div class="flex-grow-1 d-flex flex-column align-items-center justify-content-center">
+  <h1>Choose A Date!</h1>
+    <div class="mt-4">
+      <label for="start"></label>
+      <input type="date" id="start" name=""
+       value=""
+       min="" max="">
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Home'
+  name: 'Home',
+  setup(){
+    return {}
+  }
 }
 </script>
 
